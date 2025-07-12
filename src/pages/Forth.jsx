@@ -5,7 +5,7 @@ import Button from'../components/Button'
 
 const Forth = () => {
     return (
-        <div className="w-full relative bg-gray-100">
+        <div className="w-full relative bg-gray-100 mb-[800px] lg:mb-48">
             <div className="container block lg:flex mx-auto px-5">
                 <div className="w-full lg:w-1/2">
                     <img src={pannier} alt="" className="" />
@@ -20,7 +20,7 @@ const Forth = () => {
                     
                 </div>
                 <div className="w-full lg:w-1/2">
-                    <div className=" mx-5 lg:mx-0 bg-white shadow-lg  mb-16 p-8">
+                    <div className=" lg:mx-0 bg-white shadow-lg  mb-16 p-8">
                         <div className="w-full flex">
                             <div className="w-1/2 flex justify-start">
                                 <h2 className="open-bold text-orange-500">Hold amra set immo</h2>
