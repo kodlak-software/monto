@@ -1,0 +1,9 @@
+
+.header-home{
+  background-image: url('./media/img/wall.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 160vh; */
+}
+
