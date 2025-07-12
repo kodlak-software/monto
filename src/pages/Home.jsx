@@ -2,6 +2,9 @@ import React from 'react';
 import Hero from './Hero';
 import First from './First';
 import Second from './Second';
+import Third from './Third';
+import Forth from './Forth';
+import Five from './Five';
 
 
 const Home = () => {
@@ -10,6 +13,9 @@ const Home = () => {
         <Hero />
         <First />
         <Second />
+        <Third />
+        <Forth />
+        <Five />
       </div>
        
     );
