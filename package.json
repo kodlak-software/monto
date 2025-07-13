@@ -1,6 +1,6 @@
 {
   "homepage": "/monto/build/",
-  "name": "magra",
+  "name": "monto",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
