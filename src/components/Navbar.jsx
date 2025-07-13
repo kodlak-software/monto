@@ -21,9 +21,9 @@ const Navbar = () => {
 
 
 
-        gsap.to(".navbar", {backgroundColor:"#101827", opacity:100, duration: 2, ease: "power4.out"});
-        gsap.to(".link", {color:"#FFF", duration: 2, ease: "power4.out"});
-        gsap.to(".logo", {color:"#FFF", duration: 2, ease: "power4.out"});
+        gsap.to(".navbar", {backgroundColor:"#F4F7FB", opacity:100, duration: 2, ease: "power4.out"});
+        gsap.to(".link", {color:"#333", duration: 2, ease: "power4.out"});
+        gsap.to(".logo", {color:"#333", duration: 2, ease: "power4.out"});
 
 
  

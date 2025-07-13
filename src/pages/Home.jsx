@@ -5,6 +5,9 @@ import Second from './Second';
 import Third from './Third';
 import Forth from './Forth';
 import Five from './Five';
+import Six from './Six';
+import Form from './Form';
+import Footer from './Footer';
 
 
 const Home = () => {
@@ -16,6 +19,9 @@ const Home = () => {
         <Third />
         <Forth />
         <Five />
+        <Six />
+        <Form />
+        <Footer />
       </div>
        
     );
