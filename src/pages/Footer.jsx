@@ -83,7 +83,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div class="bg-gray-100">
+            <div class="bg-gray-100 border-t border-gray-300">
                 <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
                 <p class="text-gray-500 text-sm text-center sm:text-left">© 2025 Monto —
                     <a  href=""href="https://twitter.com/knyttneve" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@intevia_dev</a>
