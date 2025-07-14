@@ -13,7 +13,8 @@ const Navbar = () => {
     const _light = ()=> {
 
 
-        gsap.to(".navbar", {css:{ backgroundColor: "#00000000"}, duration: 2, ease: "power4.out"});
+        gsap.to(".navbar", {css:{ backgroundColor: "#F7F7F500"}, duration: 2, ease: "power4.out"});
+        gsap.to(".nav-mobile", {css:{ backgroundColor: "#F7F7F5"}, duration: 2, ease: "power4.out"});
         gsap.to(".link", {color:"#333", duration: 2, ease: "power4.out"});
         gsap.to(".logo", {color:"#333", duration: 2, ease: "power4.out"});
     }
@@ -22,6 +23,7 @@ const Navbar = () => {
 
 
         gsap.to(".navbar", {backgroundColor:"#F4F7FB", opacity:100, duration: 2, ease: "power4.out"});
+        gsap.to(".nav-mobile", {backgroundColor:"#F4F7FB", opacity:100, duration: 2, ease: "power4.out"});
         gsap.to(".link", {color:"#333", duration: 2, ease: "power4.out"});
         gsap.to(".logo", {color:"#333", duration: 2, ease: "power4.out"});
 
@@ -81,7 +83,7 @@ const Navbar = () => {
                     </button>
                 </div>
                 </div>
-                <div id="hs-navbar-example" ref={hsNav} className="hidden transition-max-height duration-300 ease-in-out overflow-hidden sm:max-h-none sm:block ${isOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'}" aria-labelledby="hs-navbar-example-collapse">
+                <div id="hs-navbar-example" ref={hsNav} className="hidden transition-max-height duration-300 ease-in-out overflow-hidden sm:max-h-none sm:block ${isOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'} bg-[#F7F7F5] nav-mobile lg:bg-transparent p-5" aria-labelledby="hs-navbar-example-collapse">
                     <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5">
                         <a className="font-medium text-gray-900 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 link" href="#">Account</a>
                         <a className="font-medium text-gray-900 hover:text-gray-400 focus:outline-hidden focus:text-gray-400 link" href="#">Work</a>
